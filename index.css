@@ -1,0 +1,110 @@
+body {
+  text-align: center;
+  font-family: 'Helvetica Neue', arial;
+font-weight: 300;
+}
+
+#device-id-input {
+  border: 1px solid transparent;
+  background-color: #ffffff;
+  border: 1px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1.2em;
+  font-family: 'Helvetica Neue', arial;
+  font-weight: 100;
+  letter-spacing: 2px;
+  margin: 20px;
+  padding: 10px;
+  transition: font-size .5s;
+}
+
+#dev_input, #cap_input {
+  border: 1px solid transparent;
+  background-color: #ffffff;
+  border: 1px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1.2em;
+  font-family: 'Helvetica Neue', arial;
+  font-weight: 100;
+  letter-spacing: 2px;
+  margin: 20px;
+  padding: 10px;
+  transition: font-size .5s;
+}
+
+
+#btn {
+  border: 1px solid black;
+  background-color: royalblue;
+  color: white;
+border-radius: 10px;
+cursor: pointer;
+font-size: 1.2em;
+font-family: 'Helvetica Neue', arial;
+font-weight: 100;
+letter-spacing: 2px;
+margin: 20px;
+padding: 10px;
+transition: font-size .5s;
+}
+
+#btn:hover {
+  transform: rotate(360deg);
+  transform: scale(1.01);
+  color: blue;
+  background-color: white;
+}
+
+ul {
+  list-style-type: decimal;
+}
+
+* {
+  margin: 0;
+  font-family: "";
+  color: #333;
+}
+
+
+header {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 900px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+  background: #3b5998;
+  color: #fff;
+}
+
+header  h1 {
+  color: royalblue;
+}
+
+header  .links {
+  margin-left: auto;
+}
+
+header  a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+
+header  a:hover {
+  color: royalblue;
+}
+
+footer {
+  background: #3b5998;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 55px;
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+}
